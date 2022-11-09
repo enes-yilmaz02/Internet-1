@@ -1,0 +1,28 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8">
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+            <td>Id</td>
+            <td><b>{{secKisi.Id}}</b></td>
+          </tr>
+          <tr>
+            <td>Adı Soyadı</td>
+            <td><b>{{secKisi.Adsoyad}}</b></td>
+          </tr>
+          <tr>
+            <td>E-Posta</td>
+            <td><b>{{secKisi.Mail}}</b></td>
+          </tr>
+          <tr>
+            <td>Yaş</td>
+            <td><b>{{secKisi.Yas}}</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn btn-primary" [routerLink]="['/']">Kayıtlar</button>
+      <button class="btn btn-danger ms-2" (click)="KayitSil()">Sil</button>
+    </div>
+  </div>
+</div>

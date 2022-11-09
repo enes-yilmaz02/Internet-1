@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8">
+      <h3>Kayıtlar</h3>
+      <div class="row">
+        <div class="col-auto">
+          <input type="text" class="form-control" #ara>
+        </div>
+        <div class="col-auto"><button class="btn btn-primary" (click)="KayitAra(ara.value)">Ara</button></div>
+      </div>
+      <table class="table table-hover table-striped">
+        <thead>
+          <th>Id</th>
+          <th>Adı Soyadı</th>
+          <th>Detay</th>
+          <th>Sil</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let kayit of filtreliKayitlar">
+            <td>{{kayit.Id}}</td>
+            <td>{{kayit.Adsoyad}}</td>
+            <td><button class="btn btn-info" [routerLink]="['/detay',kayit.Id]">Detay</button></td>
+            <td><button class="btn btn-danger" (click)="KayitSil(kayit)">Sil</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
