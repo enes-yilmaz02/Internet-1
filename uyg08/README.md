@@ -6,3 +6,5 @@
 ![alt text](https://github.com/akocer/Internet-1/blob/main/uyg08/katduzenlesil-1.png?raw=true)
 ![alt text](https://github.com/akocer/Internet-1/blob/main/uyg08/katduzenlesil-2.png?raw=true)
 
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg08/urunduzenlesil-1.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg08/urunduzenlesil-2.png?raw=true)
