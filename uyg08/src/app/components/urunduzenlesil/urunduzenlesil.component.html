@@ -1,0 +1,44 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8">
+      <form #urunForm="ngForm" (ngSubmit)="Kaydet()" *ngIf="islem==1">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h4>Ürün Düzenle</h4>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label>Ürün Adı</label>
+              <input type="text" name="katAdi" class="form-control" ngModel [(ngModel)]="secUrun.urunAdi">
+            </div>
+            <div class="form-group">
+              <label>Ürün Fiyatı</label>
+              <input type="number" name="urunFiyat" class="form-control" ngModel [(ngModel)]="secUrun.urunFiyat">
+            </div>
+          </div>
+          <div class="card-footer">
+            <input type="submit" value="Kaydet" class="btn btn-success">
+            <button class="btn btn-primary ms-2" [routerLink]="['/']">İptal</button>
+          </div>
+        </div>
+      </form>
+      <div class="card" *ngIf="islem==2">
+        <div class="card-header bg-danger text-white">
+          <h4>Ürün Sil</h4>
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <b>Ürün Adı : </b> {{secUrun.urunAdi}}
+            <h4>Ürün silinecektir onaylıyor musunuz?</h4>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-danger" (click)="Sil()">Sil</button>
+          <button class="btn btn-primary ms-2" [routerLink]="['/']">İptal</button>
+        </div>
+      </div>
+      <div class="mt-3" [ngClass]="urunSonuc.islem ? 'alert alert-success' : 'alert alert-danger'"
+        *ngIf="urunSonuc.mesaj">
+        {{urunSonuc.mesaj}}</div>
+    </div>
+  </div>
