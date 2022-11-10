@@ -2,3 +2,14 @@
 
 `npm i` komutu uygulayarak node_modules klasörünü ekleyeblirsiniz.
 
+`npm install -g json-server` komutu ile JSON-Server kurulur.
+
+<a href="https://github.com/typicode/json-server" target="_blank">JSON-Server Github Sayfası</a>
+
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg09/1.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg09/2.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg09/3.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg09/4.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg09/5.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg09/6.png?raw=true)
+
