@@ -14,8 +14,7 @@ Json Server kullanımı, kayıt listeleme,  kayıt ekleme, düzenleme silme
 
 
 
+
 Dr. Öğr. Üyesi Abdülkadir KOÇER
-
 Akdeniz Üniversitesi Teknik Bilimler MYO
-
 http://www.akocer.com/
