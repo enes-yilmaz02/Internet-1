@@ -4,6 +4,8 @@
 
 `npm install -g json-server` komutu ile JSON-Server kurulur.
 
+`json-server --watch db.json` komutu ile Json-Server Başlatılır.
+
 <a href="https://github.com/typicode/json-server" target="_blank">JSON-Server Github Sayfası</a>
 
 `ng add @ngneat/hot-toast` komutu ile Hot Toast kurulur
