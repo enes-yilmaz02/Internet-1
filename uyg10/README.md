@@ -10,5 +10,6 @@ Uygulama 9 üzerine ilşkisel bir tablo eklenmiştir.
 
 ![alt text](https://github.com/akocer/Internet-1/blob/main/uyg10/1.png?raw=true)
 ![alt text](https://github.com/akocer/Internet-1/blob/main/uyg10/2.png?raw=true)
+![alt text](https://github.com/akocer/Internet-1/blob/main/uyg10/3.png?raw=true)
 
 
