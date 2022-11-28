@@ -12,7 +12,9 @@ Servis kullanımı, kayıt listeleme,  kayıt ekleme, düzenleme silme
 
 Json Server kullanımı, kayıt listeleme,  kayıt ekleme, düzenleme silme
 
+<a href="https://github.com/akocer/Internet-1/tree/main/uyg10"> Uygulama 10</a>
 
+Uygulama 9 üzerine ilşkisel bir tablo eklenmiştir.
 
 
 <b>Dr. Öğr. Üyesi Abdülkadir KOÇER</b><br>
