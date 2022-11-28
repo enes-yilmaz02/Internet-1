@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "adi": "Yazılım",
+      "kaytarih": "1668069636299",
+      "duztarih": "1669493020034"
+    },
+    {
+      "id": 2,
+      "adi": "Tasarım",
+      "kaytarih": "1669493025838",
+      "duztarih": "1669493025838"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "adsoyad": "Ali",
+      "mail": "ali@mail.com",
+      "admin": "1",
+      "parola": "123",
+      "kaytarih": "1668070115626",
+      "duztarih": "1668085146787"
+    },
+    {
+      "id": 2,
+      "adsoyad": "veli",
+      "mail": "veli@mail.com",
+      "admin": "0",
+      "parola": "123",
+      "kaytarih": "1668070283323",
+      "duztarih": "1668085150210"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "dersadi": "Yazılım",
+      "derskredi": "3",
+      "categoryId": 1,
+      "kaytarih": "1669492454308",
+      "duztarih": "1669492470671"
+    },
+    {
+      "id": 2,
+      "dersadi": "Python",
+      "derskredi": "3",
+      "categoryId": "1",
+      "kaytarih": "1669493927763",
+      "duztarih": "1669493927763"
+    },
+    {
+      "id": 3,
+      "dersadi": "Grafik",
+      "derskredi": "3",
+      "categoryId": "2",
+      "kaytarih": "1669494689375",
+      "duztarih": "1669494713718"
+    }
+  ]
+}
